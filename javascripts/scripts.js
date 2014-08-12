@@ -1,6 +1,6 @@
 
   function roll(){
-    var bodyParts = ['face', 'lips', 'butt', 'crotch', 'hand', 'foot', 'neck', 'back', 'stomach', 'knee', 'elbow', 'armpit']
+    var bodyParts = ['face', 'lips', 'butt', 'crotch', 'hand', 'foot', 'neck', 'back', 'belly button', 'knee', 'elbow', 'armpit']
     var actionItems = ['lick', 'kiss', 'bite', 'rub', 'blow on', 'thing about', 'tickle']
 
     for (var i = 0; i < 1000; i+=100) {
