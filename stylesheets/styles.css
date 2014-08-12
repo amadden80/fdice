@@ -15,14 +15,10 @@ body{
   font-size: 1.5em;
   opacity: 0.80;
 }
-.game-die{
-  cursor: default;
-}
 
 .game-die:hover{
   cursor: pointer;
 }
-
 
 .action-die{
   background-color: #993333;
