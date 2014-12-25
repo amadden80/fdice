@@ -7,12 +7,12 @@ function roll(){
       setTimeout(function(){
         $('.action-die').text(actionItems[Math.floor(Math.random()*actionItems.length)])
         $('.action-die').css({'transform': 'rotate('+ (Math.random()*90-45)+'deg)'})
-        $('.action-die').animate({'left': Math.random()*75+'%', 'top': Math.random()*50+'%'}, 100)
+        $('.action-die').animate({'left': Math.random()*65+'%', 'top': Math.random()*50+'%'}, 100)
       }, i * Math.random())
       setTimeout(function(){
         $('.body-die').text(bodyParts[Math.floor(Math.random()*bodyParts.length)])
         $('.body-die').css({'transform': 'rotate('+ (Math.random()*90-45)+'deg)'})
-        $('.body-die').animate({'left': Math.random()*75+'%', 'top': Math.random()*50+'%'}, 100)
+        $('.body-die').animate({'left': Math.random()*65+'%', 'top': Math.random()*50+'%'}, 100)
       }, i * Math.random())
     };
 
